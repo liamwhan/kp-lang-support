@@ -1,0 +1,25 @@
+{
+  "name": "kp",
+  "displayName": "kp",
+  "description": "KeyPoint Slide Syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "kp",
+      "aliases": ["KeyPoint", "kp"],
+      "extensions": [".kp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "kp",
+      "scopeName": "source.kp",
+      "path": "./syntaxes/kp.tmLanguage.json"
+    }]
+  }
+}
