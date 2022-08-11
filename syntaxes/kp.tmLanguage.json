@@ -78,7 +78,7 @@
 				"begin": "#",
 				"beginCaptures": {
 					"0": {
-						"name": "punctuation.definition.comment"
+						"name": "punctuation.definition.comment.kp"
 					}
 				},
 				"end": "\\r?\\n"
@@ -87,13 +87,13 @@
 
 		"blocks": {
 			"patterns": [{
-				"name": "entity.name.type",
+				"name": "entity.name.type.kp",
 				"match": "^\\[(slide|style|image|video)\\b"
 			}]
 		},
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control",
+				"name": "keyword.control.kp",
 				"match": "\\b(if|while|for|return)\\b"
 			}]
 		},

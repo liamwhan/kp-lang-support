@@ -1,10 +1,15 @@
 {
-  "name": "kp",
-  "displayName": "kp",
-  "description": "KeyPoint Slide Syntax",
-  "version": "0.0.1",
+  "name": "kp-language-support-vscode",
+  "displayName": "KeyPoint Slide Format Language Support",
+  "description": "KeyPoint Slide TextMate Grammar and VS Code language support",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.70.0"
+  },
+  "publisher": "LiamWhan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liamwhan/kp-lang-support.git"
   },
   "categories": [
     "Programming Languages"
