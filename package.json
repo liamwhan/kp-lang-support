@@ -2,7 +2,7 @@
   "name": "kp-language-support-vscode",
   "displayName": "KeyPoint Slide Format Language Support",
   "description": "KeyPoint Slide TextMate Grammar and VS Code language support",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },

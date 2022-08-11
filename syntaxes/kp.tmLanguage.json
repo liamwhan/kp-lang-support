@@ -2,9 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "KeyPoint",
 	"patterns": [
-		{
-			"include": "#operators"
-		},
+		
 		{
 			"include": "#keywords"
 		},
@@ -19,6 +17,12 @@
 		},
 		{
 			"include": "#comments"
+		},
+		{
+			"include": "#includes"
+		},
+		{
+			"include": "#operators"
 		}
 	],
 	"repository": {
@@ -107,6 +111,11 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"includes": {
+			"name": "support.type.kp",
+			"begin": "\\!",
+			"end": "\\r?\\n"
 		}
 	},
 	"scopeName": "source.kp"
