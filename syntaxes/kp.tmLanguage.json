@@ -50,7 +50,7 @@
 		"blockprops": {
 			"patterns": [
 				{
-					"begin": "(background|transition|align|valign|font|font-size|font-color|offset|width|height|path)(?:=)",
+					"begin": "(background|transition|align|valign|font|font-size|font-color|offset|width|height|path|page-number|header|footer|name)(?:=)",
 					"beginCaptures": {
 						"0": {
 							"name": "entity.other.attribute-name.kp"
@@ -92,7 +92,7 @@
 		"blocks": {
 			"patterns": [{
 				"name": "entity.name.type.kp",
-				"match": "^\\[(slide|style|image|video)\\b"
+				"match": "^\\[(slide|style|image|video|header|footer)\\b"
 			}]
 		},
 		"keywords": {
